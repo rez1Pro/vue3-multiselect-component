@@ -45,7 +45,7 @@ const toggleSelectAll = () => {
     </Multiselect>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import 'vue-multiselect/dist/vue-multiselect.css';
 
 // Custom theme styles

@@ -2,20 +2,28 @@
     "name": "vue3-multiselect-component",
     "version": "1.0.0",
     "description": "you can use for multiple selection and single select item by vue3",
-    "main": "./src/index.js",
-    "module": "./src/index.js",
-    "unpkg": "./src/index.js",
+    "main": "./dist/multi-select.umd.js",
+    "module": "./dist/multi-select.es.js",
+    "unpkg": "./dist/multi-select.umd.js",
     "author": "Md. Rezwan hossain sajib",
     "license": "MIT",
     "private": false,
     "type": "module",
     "files": [
-        "src"
+        "dist"
     ],
+    "exports": {
+        ".": {
+            "import": "./dist/multi-select.es.js",
+            "require": "./dist/multi-select.umd.js"
+        },
+        "./dist/style.css": "./dist/style.css"
+    },
     "keywords": [
         "vue3",
         "multiselect",
-        "component"
+        "component",
+        "vue3-multiselect-component"
     ],
     "scripts": {
         "build": "vite build",
@@ -23,12 +31,13 @@
     },
     "devDependencies": {
         "@vitejs/plugin-vue": "^5.2.1",
+        "sass": "^1.82.0",
         "typescript": "^5.7.2",
         "vite": "^4.0.0",
-        "vite-plugin-dts": "^4.3.0",
-        "vue": "^3.5.13"
+        "vite-plugin-dts": "^4.3.0"
     },
     "peerDependencies": {
-        "vue": "^3.5.13"
+        "vue": "^3.5.13",
+        "vue-multiselect": "^3.1.0"
     }
 }
