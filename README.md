@@ -19,6 +19,15 @@ npm install vue3-multiselect-component
 yarn add vue3-multiselect-component
 ```
 
+## Configuration
+
+```js
+import MultiSelect from 'vue3-multiselect-component';
+import 'vue3-multiselect-component/dist/style.css';
+
+app.use(MultiSelect);
+```
+
 ## Usage
 
 ```vue
@@ -95,8 +104,6 @@ You can customize the appearance by overriding the following CSS classes:
 </template>
 
 <script setup>
-import MultiSelect from '@/Components/App/MultiSelect.vue';
-
 const selected = ref([]);
 const options = [
   { id: 1, displayName: 'Option 1' },
