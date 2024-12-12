@@ -1,6 +1,7 @@
 # Vue3 MultiSelect Component
 
 A customizable and accessible multiselect/dropdown component for Vue 3 built on top of vue-multiselect.
+Reference: [vue-multiselect](https://github.com/shentao/vue-multiselect) more configuration options
 
 ## Features
 
@@ -131,3 +132,7 @@ Supports all modern browsers including:
 ```
 
 This documentation provides a comprehensive overview of the component's features, installation, usage, and customization options. It includes examples and detailed explanations of all available props, events, and slots.
+
+## Credits
+
+- [vue-multiselect](https://github.com/shentao/vue-multiselect)
