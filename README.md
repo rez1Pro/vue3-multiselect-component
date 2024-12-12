@@ -122,6 +122,15 @@ The component implements the following accessibility features:
 - Focus management
 - Screen reader support
 
+## Types
+
+```ts
+declare module 'vue3-multiselect-component' {
+    const MultiSelect: any;
+    export default MultiSelect;
+}
+```
+
 ## Browser Support
 
 Supports all modern browsers including:

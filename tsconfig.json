@@ -22,6 +22,7 @@
         "./src/**/*.vue",
         "./src/**/*.ts",
         "./src/components/**/*.vue",
+        "../types/*.d.ts",
         "."
     ],
     "exclude": [
