@@ -1,6 +1,6 @@
 {
     "name": "vue3-multiselect-component",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "you can use for multiple selection and single select item by vue3",
     "main": "./dist/multi-select.umd.js",
     "module": "./dist/multi-select.es.js",
