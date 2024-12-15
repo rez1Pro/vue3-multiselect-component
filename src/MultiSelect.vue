@@ -25,7 +25,7 @@ const toggleSelectAll = () => {
 <template>
     <Multiselect :modelValue="modelValue" :options="props.options" :multiple="multiple" :label="label"
         :track-by="label || trackBy" @update:modelValue="emit('update:modelValue', $event)" :selectLabel="'Select'"
-        :selectedLabel="'Selected'" :allow-empty="false" :deselectLabel="'Remove'">
+        :selectedLabel="'Selected'" :deselectLabel="'Remove'">
         <template #beforeList v-if="multiple">
             <div class="multiselect__option" @click="toggleSelectAll">
                 <div class="flex items-center gap-2">
@@ -45,9 +45,8 @@ const toggleSelectAll = () => {
     </Multiselect>
 </template>
 
+<style src="../dist/style.css"></style>
 <style lang="scss" scoped>
-@import 'vue-multiselect/dist/vue-multiselect.css';
-
 // Custom theme styles
 .multiselect {
     min-height: 44px;

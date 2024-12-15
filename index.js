@@ -1,5 +1,4 @@
-import './../dist/style.css';
-import MultiSelect from "./components/MultiSelect.vue";
+import MultiSelect from "./src/MultiSelect.vue";
 
 export default {
     install(app) {
