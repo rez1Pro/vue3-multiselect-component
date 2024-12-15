@@ -12,6 +12,10 @@ Reference: [vue-multiselect](https://github.com/shentao/vue-multiselect) more co
 - **Accessible:** Keyboard navigable and ARIA compliant
 - **Responsive:** Mobile-friendly design with touch support
 
+## Screenshot
+
+![Screenshot](ss/image.png)
+
 ## Installation
 
 ```bash
@@ -24,7 +28,6 @@ yarn add vue3-multiselect-component
 
 ```js
 import MultiSelect from 'vue3-multiselect-component';
-import 'vue3-multiselect-component/dist/style.css';
 
 app.use(MultiSelect);
 ```
