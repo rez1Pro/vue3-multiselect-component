@@ -14,7 +14,12 @@
     "files": [
         "dist/style.css",
         "src",
-        "ss"
+        "ss",
+        "index.js",
+        "vue3-multiselect-component.d.ts",
+        "tsconfig.json",
+        "README.md",
+        "vite.config.js"
     ],
     "exports": {
         ".": {
